@@ -19,5 +19,14 @@ public class Cliente {
 			setTiempoFinal();
 		}
 		return this.tiempoFinal - this.tiempoInicial;
+	
+	
 	}
+//añadimos método getId para poder imprimir el id del cliente
+	public int getId() {
+		return id;
+	}
+	
+	
+	
 }
